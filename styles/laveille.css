@@ -1,0 +1,75 @@
+#all {
+    background-image: url(../pics/yellow.png);
+    height: 700vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* #header {
+    background-color: #fac70b;
+} */
+
+.banner {
+    background-color: #1c1259;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 1px solid #000;
+    border-bottom-right-radius: 1px solid #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.name {
+    line-height: 40px;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    width: 500px;
+    background-color: #1c1259;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-bottom-left-radius: 1px solid #000;
+    border-bottom-right-radius: 1px solid #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+body {
+    background-color: #1c1259;
+    text-align: center;
+    border: solid #1c1259;
+}
+
+.noir {
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttton {
+    display: block;
+    background: rgb(138, 255, 4);
+    /* color: ; */
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
