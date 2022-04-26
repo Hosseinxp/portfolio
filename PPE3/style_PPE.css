@@ -1,0 +1,183 @@
+body{
+
+    margin: 0vw;
+    padding: 0;
+    background-image: url(background-ppe.jpg);
+    /* background-size: 100%; */
+    background-size: 100vw 56vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#btn-accueil{
+    font-size: 4vw;
+    border: solid;
+}
+
+h1{
+    /* color:rgb( 253, 242, 233 ) ; */
+    background-color: black;
+    /* font-size: 4vw; */
+    /* text-shadow: 2px 2px 2px black; */
+}
+
+#GSS{
+    color: rgb(236, 240, 241);
+    text-align: center;
+    transform: translateY(3vw);
+    font-size: 7vw;
+    text-decoration: solid underline;
+    text-shadow: 7px 7px 7px black;
+    box-shadow: 3vw 3vw 3vw rgb( 130, 224, 170 );
+    transform: translateY(7vw);
+}
+
+#menu{
+    height: 5vw;
+    width: 90vw;
+    transform: translateY(5vw);
+    text-align: center;
+    background-color:aliceblue;
+    border-radius: 3vw;
+    margin: auto;
+    border: solid 0.3vw;
+}
+
+.btn-nav{
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    margin: 1vw;
+    background-color: aquamarine;
+    border-color: rgb( 88, 214, 141 );
+    
+}
+
+.btn-identification{
+    transform: translateX(76vw) translateY(-6vw);
+    font-size: 1.9vw;
+    border-radius: 1vw;
+    background-color: rgb(  253, 242, 233 );
+    border-color: rgb( 248, 196, 113 );
+    padding: 0.5vw;
+}
+
+/* #btn-accueil{
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    margin: 1vw;
+    background-color: aquamarine;
+    border-color: rgb( 88, 214, 141 );
+    transform: translateX(-100px);
+    font-size: 2vw;
+} */
+
+
+/*-----------------Inscription-------------------*/
+
+
+#field-inscription{
+    background-color: aliceblue;
+    width: 50vw;
+    height: 40vw;
+    border-radius: 7vw;
+    transform: translateX(50%);
+    border: solid;  
+}
+
+.input-inscription{
+    border-radius: 2vw;
+    font-size: 2vw;
+    transform: translateY(10vw);
+    margin: 1vw;
+    border: solid 0.1vw;
+}
+
+.btn-envoi{
+    font-size: 2.5vw;
+    border-radius: 2vw;
+    border: solid 0.2vw;
+    transform:translateX(15vw) translateY(13vw);
+    width: 18vw;
+}
+
+.titre-form{
+    font-size: 4vw;
+    text-decoration: underline;
+    text-align: center;
+    transform: translateY(6vw);
+}
+
+
+/*-----------------Inscription-------------------*/
+
+
+.input-connexion{
+    border-radius: 2vw;
+    font-size: 3vw;
+    transform: translateX(7vw) translateY(10vw);
+    margin: 1vw;
+    border: solid 0.1vw;
+}
+
+
+/*-----------------Vêtements-------------------*/
+
+
+.vêtements{
+    width: 20vw;
+    height: 25vw;
+    background-color: aliceblue;
+    border-radius: 2vw;
+    border: solid black;
+    margin: 1vw;
+    
+}
+
+.div_vêtements{
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 3vw;
+}
+
+
+.img_vêtements{
+    width: 13vw;
+    height: 13vw;
+    border-radius: 1vw;
+    margin-left: 3.5vw;
+}
+
+
+.p-vêtements{
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.selection{
+    text-align: center;
+    margin: 0.5vw;
+}
+
+
+/*-----------------Achat / Consultation -------------------*/
+
+
+.btn-achat{
+    font-size: 2vw;
+    background-color: aliceblue;
+    border-radius: 2vw;
+    border: solid;
+    width: 20vw;
+}
+
+.consultation_stock{
+    background-color: aliceblue;
+    font-size: 2.5vw;
+    border-radius: 2vw;
+    border: solid;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    transform: translateX(25vw) translateY(-50vw);
+}
